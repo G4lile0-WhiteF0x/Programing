@@ -8,13 +8,15 @@ span.wmtNn button (Save post button)
 // Code 
 
 likes in a # 
-
+var l = 1;
 setInterval(
-    Function(){
-        var i = document.querySelector('h1._7UhW9');
+    function(){
+        var i = document.querySelector('h1._7UhW9').innerText;
+        var s = l++;
         document.querySelector('button.wpO6b').click();
         document.querySelector('span.wmtNn button').click();
-        document.querySelector('a._65Bje').click(); } ,  6500   )
-  
+        document.querySelector('a._65Bje').click();
+        console.log("You gave " + s + " on " + i)
+         } ,  6500)
 
   //
