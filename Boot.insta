@@ -1,0 +1,17 @@
+// instagram classes    
+
+h1._7UhW9 (# name)
+button.wpO6b (Like button)
+a._65Bje (Next pic arrow)
+span.wmtNn button (Save post button)
+
+// Code 
+
+likes in a # 
+
+setInterval(
+    Function(){
+        var i = document.querySelector('h1._7UhW9');
+        document.querySelector('button.wpO6b').click();
+        document.querySelector('span.wmtNn button').click();
+        document.querySelector('a._65Bje').click(); } ,  6500   )
