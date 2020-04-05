@@ -19,4 +19,4 @@ setInterval(
         console.log("You gave " + s + " on " + i)
          } ,  6500)
 
-//
+//  
