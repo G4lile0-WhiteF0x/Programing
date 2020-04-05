@@ -18,5 +18,3 @@ setInterval(
         document.querySelector('a._65Bje').click();
         console.log("You gave " + s + " on " + i)
          } ,  6500)
-
-  //
