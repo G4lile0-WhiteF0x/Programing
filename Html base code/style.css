@@ -1,0 +1,31 @@
+body{
+background-color: black;
+position: absolute;
+}
+
+.title{
+color: rgba(255, 248, 220, 1);
+font-size: 60px;
+position: absolute;
+display: contents;
+
+}
+
+.paragraph{
+    color: rgba(255, 248, 220, 0.5);
+    font-size: 30px;
+    position: relative;
+    padding: 60px;
+    display: flex;
+    max-width: 40%;
+    
+}
+
+.image{
+position: relative;
+top: -15rem;
+left: 50%;
+display: flex;
+
+
+}
