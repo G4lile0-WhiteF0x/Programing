@@ -5,29 +5,35 @@ position: absolute;
 
 @media (min-width:600px){
 
-.title{
+div .title{
 color: rgba(255, 248, 220, 1);
 font-size: 60px;
 position: absolute;
 display: contents;
+margin: 0px;
 
 }
 
-.paragraph{
+div .paragraph{
     color: rgba(255, 248, 220, 0.5);
     font-size: 30px;
     position: relative;
     padding: 60px;
     display: flex;
     max-width: 40%;
+    margin: 0px;
     
 }
 
 .image{
-position: relative;
-top: -15rem;
-left: 50%;
-display: flex;
 
+
+}
+div.fiverr-seller-widget{
+    position: relative;
+    left: 60%;
+    top: -17rem;
+    padding: 50px;
+    margin: 0px;
 }
 }
