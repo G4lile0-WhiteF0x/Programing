@@ -3,37 +3,40 @@ background-color: black;
 position: absolute;
 }
 
-@media (min-width:600px){
 
-div .title{
+div h1.title{
 color: rgba(255, 248, 220, 1);
 font-size: 60px;
-position: absolute;
-display: contents;
-margin: 0px;
+position: relative;
+padding: 10px;
+top: 0px;
 
 }
 
-div .paragraph{
+div p.paragraph{
     color: rgba(255, 248, 220, 0.5);
     font-size: 30px;
-    position: relative;
-    padding: 60px;
+    position: absolute;
+    padding-left: 40px;
     display: flex;
     max-width: 40%;
     margin: 0px;
     
 }
-
-.image{
-
-
+div p.social{
+    color: rgba(255, 248, 220, 0.5);
+    font-size: 30px;
+    position: absolute;
+    left: 60%;
+    display: flex;
+    margin: 0px;
+    
 }
+
+
 div.fiverr-seller-widget{
     position: relative;
-    left: 60%;
-    top: -17rem;
-    padding: 50px;
+    left: 90%;
+    padding: 10px;
     margin: 0px;
-}
 }
