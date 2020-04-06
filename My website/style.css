@@ -4,7 +4,7 @@ position: absolute;
 }
 
 
-@media screen and (min-width: 600px){
+@media screen and (min-width: 1920px){
 
 div h1.title{
 color: rgba(255, 248, 220, 1);
@@ -69,21 +69,21 @@ div.fiverr-seller-widget{
 }
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 1080px){
 div h1.title{
         color: rgba(255, 248, 220, 1);
         font-size: 100px;
         position: relative;
-        padding: 10px;
+       
         top: -3rem;
-        text-align: center;
+        left:45%;
         }
         
         div p.paragraph{
             color: rgba(255, 248, 220, 0.5);
             font-size: 30px;
             position: relative;
-            padding-left: 40px;
+            left: 28%;
             display: flex;
             max-width: 600px;
             margin: 0px;
@@ -96,8 +96,8 @@ div h1.title{
             position: relative;
             display: flex;
             margin: 0px;
-            padding: 40px;
-            
+            left:50%;
+            padding-top:10px;
         }
         div a.insta{
             color: rgba(148, 0, 211, 01);
@@ -108,7 +108,7 @@ div h1.title{
             padding-bottom: 30px;
             text-decoration: none;
             top: 24rem;
-            left: 40%;
+            left: 62%;
         }
         div a.github{
             color: rgba(148, 0, 211, 01);
@@ -119,7 +119,7 @@ div h1.title{
             margin: 0px;
             padding: 30px;
             text-decoration: none;
-            left: 40%;
+            left: 62%;
             
         }
         
@@ -128,7 +128,7 @@ div h1.title{
             padding: 10px;
             margin: 0px;
             top: -4rem;
-            left: 40%;
+            left: 62%;
         }
 }
     
