@@ -32,11 +32,36 @@ div p.social{
     margin: 0px;
     
 }
-
+div a.insta{
+    color: rgba(148, 0, 211, 01);
+    font-size: 30px;
+    position: relative;
+    left: 83%;
+    display: flex;
+    margin: 0px;
+    padding-bottom: 30px;
+    text-decoration: none;
+    top: 20rem;
+    text-align: center;
+}
+div a.github{
+    color: rgba(148, 0, 211, 01);
+    font-size: 30px;
+    position: relative;
+    left: 85%;
+    top: -5rem;
+    display: flex;
+    margin: 0px;
+    padding-bottom: 30px;
+    text-decoration: none;
+    
+}
 
 div.fiverr-seller-widget{
     position: relative;
-    left: 90%;
+    left: 80%;
     padding: 10px;
     margin: 0px;
+    top: -8rem;
 }
+
