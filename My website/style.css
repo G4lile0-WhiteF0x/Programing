@@ -4,6 +4,8 @@ position: absolute;
 }
 
 
+@media screen and (min-width: 600px){
+
 div h1.title{
 color: rgba(255, 248, 220, 1);
 font-size: 60px;
@@ -16,7 +18,7 @@ top: 0px;
 div p.paragraph{
     color: rgba(255, 248, 220, 0.5);
     font-size: 30px;
-    position: absolute;
+    position: relative;
     padding-left: 40px;
     display: flex;
     max-width: 40%;
@@ -26,30 +28,31 @@ div p.paragraph{
 div p.social{
     color: rgba(255, 248, 220, 0.5);
     font-size: 30px;
-    position: absolute;
+    position: relative;
     left: 60%;
     display: flex;
     margin: 0px;
+    top:-6.5rem;
     
 }
 div a.insta{
     color: rgba(148, 0, 211, 01);
     font-size: 30px;
     position: relative;
-    left: 83%;
+    left: 89%;
     display: flex;
     margin: 0px;
     padding-bottom: 30px;
     text-decoration: none;
-    top: 20rem;
+    top: 16rem;
     text-align: center;
 }
 div a.github{
     color: rgba(148, 0, 211, 01);
     font-size: 30px;
     position: relative;
-    left: 85%;
-    top: -5rem;
+    left: 90%;
+    top: -8.5rem;
     display: flex;
     margin: 0px;
     padding-bottom: 30px;
@@ -59,9 +62,73 @@ div a.github{
 
 div.fiverr-seller-widget{
     position: relative;
-    left: 80%;
+    left: 85%;
     padding: 10px;
     margin: 0px;
-    top: -8rem;
+    top: -12rem;
+}
 }
 
+@media screen and (max-width: 600px){
+div h1.title{
+        color: rgba(255, 248, 220, 1);
+        font-size: 100px;
+        position: relative;
+        padding: 10px;
+        top: -3rem;
+        text-align: center;
+        }
+        
+        div p.paragraph{
+            color: rgba(255, 248, 220, 0.5);
+            font-size: 30px;
+            position: relative;
+            padding-left: 40px;
+            display: flex;
+            max-width: 600px;
+            margin: 0px;
+            top: -3rem;
+            
+        }
+        div p.social{
+            color: rgba(255, 248, 220, 0.5);
+            font-size: 40px;
+            position: relative;
+            display: flex;
+            margin: 0px;
+            padding: 40px;
+            
+        }
+        div a.insta{
+            color: rgba(148, 0, 211, 01);
+            font-size: 40px;
+            position: relative;
+            display: flex;
+            margin: 0px;
+            padding-bottom: 30px;
+            text-decoration: none;
+            top: 24rem;
+            left: 40%;
+        }
+        div a.github{
+            color: rgba(148, 0, 211, 01);
+            font-size: 40px;
+            position: relative;
+            top: 0rem;
+            display: flex;
+            margin: 0px;
+            padding: 30px;
+            text-decoration: none;
+            left: 40%;
+            
+        }
+        
+        div.fiverr-seller-widget{
+            position: relative;
+            padding: 10px;
+            margin: 0px;
+            top: -4rem;
+            left: 40%;
+        }
+}
+    
