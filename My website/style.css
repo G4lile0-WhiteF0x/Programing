@@ -4,93 +4,93 @@ position: absolute;
 }
 
 
-@media screen and (min-width: 1920px){
+ 
 
-div h1.title{
-color: rgba(255, 248, 220, 1);
-font-size: 60px;
-position: relative;
-padding: 10px;
-top: 0px;
+    div h1.title{
+     color: rgba(255, 248, 220, 1);
+        font-size: 60px;
+      position: relative;
+        padding: 10px;
+        top: 0px; 
+    }
 
-}
-
-div p.paragraph{
-    color: rgba(255, 248, 220, 0.5);
-    font-size: 30px;
-    position: relative;
-    padding-left: 40px;
-    display: flex;
-    max-width: 40%;
-    margin: 0px;
+   
+    div p.paragraph { 
+      color: rgba(255, 248, 220, 0.5);
+     font-size: 30px;
+     position: relative;
+        padding-left: 40px;
+      display: flex;
+      max-width: 40%;
+         margin: 0px;
     
-}
-div p.social{
-    color: rgba(255, 248, 220, 0.5);
-    font-size: 30px;
-    position: relative;
-    left: 60%;
-    display: flex;
-    margin: 0px;
-    top:-6.5rem;
+    }
+    div p.social{
+        color: rgba(255, 248, 220, 0.5);
+        font-size: 30px;
+        position: relative;
+     left: 60%;
+     display: flex;
+        margin: 0px;
+        top:-6.5rem;
     
-}
-div a.insta{
-    color: rgba(148, 0, 211, 01);
-    font-size: 30px;
-    position: relative;
-    left: 89%;
-    display: flex;
-    margin: 0px;
-    padding-bottom: 30px;
-    text-decoration: none;
-    top: 16rem;
-    text-align: center;
-}
-div a.github{
-    color: rgba(148, 0, 211, 01);
-    font-size: 30px;
-    position: relative;
-    left: 90%;
-    top: -8.5rem;
-    display: flex;
-    margin: 0px;
-    padding-bottom: 30px;
-    text-decoration: none;
+    }
+    div a.insta{
+        color: rgba(148, 0, 211, 01);
+        font-size: 30px;
+        position: relative;
+        left: 89%;
+     display: flex;
+        margin: 0px;
+        padding-bottom: 30px;
+     text-decoration: none;
+     top: 16rem;
+        text-align: center;
+    }
+    div a.github{
+     color: rgba(148, 0, 211, 01);
+        font-size: 30px;
+     position: relative;
+     left: 90%;
+        top: -8.5rem;
+        display: flex;
+     margin: 0px;
+     padding-bottom: 30px;
+     text-decoration: none;
     
-}
+    }
 
-div.fiverr-seller-widget{
-    position: relative;
-    left: 85%;
-    padding: 10px;
-    margin: 0px;
-    top: -12rem;
-}
-}
+    div.fiverr-seller-widget{
+     position: relative;
+     left: 85%;
+        padding: 10px;
+     margin: 0px;
+     top: -12rem;
+    }
+
 
 @media screen and (max-width: 1080px){
-div h1.title{
+    div h1.title{
         color: rgba(255, 248, 220, 1);
         font-size: 100px;
         position: relative;
        
         top: -3rem;
         left:45%;
-        }
+    }
         
-        div p.paragraph{
+    div p.paragraph{
             color: rgba(255, 248, 220, 0.5);
             font-size: 30px;
             position: relative;
             left: 28%;
             display: flex;
-            max-width: 600px;
+            max-width: 400px;
             margin: 0px;
             top: -3rem;
             
-        }
-        div p.social{
+     }
+     div p.social{
             color: rgba(255, 248, 220, 0.5);
             font-size: 40px;
             position: relative;
@@ -98,8 +98,9 @@ div h1.title{
             margin: 0px;
             left:50%;
             padding-top:10px;
+            top: 1rem;
         }
-        div a.insta{
+    div a.insta{
             color: rgba(148, 0, 211, 01);
             font-size: 40px;
             position: relative;
@@ -108,10 +109,10 @@ div h1.title{
             padding-bottom: 30px;
             text-decoration: none;
             top: 24rem;
-            left: 62%;
-        }
-        div a.github{
-            color: rgba(148, 0, 211, 01);
+            left: 65%;
+     }
+     div a.github{
+           color: rgba(148, 0, 211, 01);
             font-size: 40px;
             position: relative;
             top: 0rem;
@@ -121,14 +122,14 @@ div h1.title{
             text-decoration: none;
             left: 62%;
             
-        }
+     }
         
-        div.fiverr-seller-widget{
+     div.fiverr-seller-widget{
             position: relative;
             padding: 10px;
             margin: 0px;
             top: -4rem;
             left: 62%;
-        }
+     }
 }
     
