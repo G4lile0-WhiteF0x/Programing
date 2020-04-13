@@ -11,4 +11,4 @@ session.set_quota_supervisor(enabled=True, sleep_after=["likes", "comments_d"], 
 session.like_by_tags(["balneariocamboriu", "linda", "blogueira", "gata", "lindademais"], amount=40)
 session.set_do_comment(True, percentage=50)
 session.set_comments(["Lindaaa :heart:", "Gata 🔥🔥", "Q deusa 😍😍"])
-session.set_dont_like(["kids", "crianca", "bebê", "criancas", "nsfw", "nsfw"])
+session.set_dont_like(["kids", "crianca", "bebê", "criancas"])
