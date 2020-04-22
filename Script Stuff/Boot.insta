@@ -19,7 +19,8 @@ setInterval(
         document.querySelector('span.wmtNn button').click();
         document.querySelector('a._65Bje').click();
         console.log("You gave " + s + " likes on " + i);
-        }
+        }  ;
+        document.querySelector('a._65Bje').click();
          } ,  6500);
 
 
@@ -35,7 +36,8 @@ setInterval(
         document.querySelector('span.fr66n button').click();
         document.querySelector('span.wmtNn button').click();
         document.querySelector('a._65Bje').click();
-        console.log("You gave " + s + " likes on " + i);
+        console.log("You gave " + s + " likes on " + i);};
+        document.querySelector('a._65Bje').click();
          } ,  6500);}
 
 
