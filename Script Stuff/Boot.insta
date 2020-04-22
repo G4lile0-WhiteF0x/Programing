@@ -18,7 +18,7 @@ setInterval(
         document.querySelector('button.wpO6b').click();
         document.querySelector('span.wmtNn button').click();
         document.querySelector('a._65Bje').click();
-        console.log("You gave " + s + " likes on " + i)/
+        console.log("You gave " + s + " likes on " + i);
         }
          } ,  6500);
 
@@ -29,13 +29,13 @@ var l = 1;
 setInterval(
     function(){
         var i = document.querySelector('a.sqdOP ').innerText;
-          var rand = Math.floor(Math.random() * 100) + 1;
-         if(rand > 38){
+        var rand = Math.floor(Math.random() * 100) + 1;
+        if(rand > 38){
         var s = l++;
         document.querySelector('span.fr66n button').click();
         document.querySelector('span.wmtNn button').click();
         document.querySelector('a._65Bje').click();
-        console.log("You gave " + s + " likes on " + i)
+        console.log("You gave " + s + " likes on " + i);
          } ,  6500);}
 
 
