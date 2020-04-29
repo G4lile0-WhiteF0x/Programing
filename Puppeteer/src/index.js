@@ -35,7 +35,7 @@ await page.waitFor(2000);
 await page.click('button.wpO6b');
 };
 
-if(rand > 54){
+if(rand > 74){
 
 //comment
   await page.type('textarea.Ypffh', 'Lindaaaaaaa❤️❤️');
