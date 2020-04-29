@@ -1,10 +1,91 @@
 const puppeteer = require('puppeteer');
 
-(async () => {
-  const browser = await puppeteer.launch();
-  const page = await browser.newPage();
-  await page.goto('https://google.com');
-  await page.screenshot({path: 'example.png'});
 
-  await browser.close();
-})();``
+
+
+(async () => {
+  //page get
+  const browser = await puppeteer.launch({headless: false});
+  const page = await browser.newPage();
+  await page.goto('https://www.instagram.com/accounts/login/');
+  await page.waitForSelector('input[name="username"]');
+  
+  //login
+  await page.type('input[name="username"]', 'Bot_g4lile0');
+  await page.type('input[name="password"]', 'Insta123');
+  await page.click('button[type="submit"]');
+
+ //go to a # 
+ await page.waitFor(2000);
+ await page.goto('https://www.instagram.com/explore/tags/lindas/');
+ 
+ //photo selection
+ await page.click('div.eLAPa')
+
+
+//pohto like
+
+
+for(i=0;i<60;i++){
+  var rand = Math.floor(Math.random() * 100) + 1;
+if(rand > 38){
+
+  //like
+await page.waitFor(2000);
+await page.click('button.wpO6b');
+};
+
+if(rand > 74){
+
+//comment
+  await page.type('textarea.Ypffh', 'Lindaaaaaaa❤️❤️');
+  await page.click('button[type="submit"]');
+  await page.waitFor(2000);
+};
+
+//skip
+await page.waitFor(4000);
+await page.click('a._65Bje');
+
+};
+
+
+//go to a 2 #
+
+
+await page.waitFor(2000);
+await page.goto('https://www.instagram.com/explore/tags/fofa/');
+
+//photo selection
+await page.click('div.eLAPa')
+
+// like, coment fotos
+for(i=0;i<60;i++){
+  var rand = Math.floor(Math.random() * 100) + 1;
+if(rand > 38){
+
+  //like
+await page.waitFor(2000);
+await page.click('button.wpO6b');
+};
+
+if(rand > 74){
+
+//comment
+  await page.type('textarea.Ypffh', 'Lindaaaaaaa❤️❤️');
+  await page.click('button[type="submit"]');
+  await page.waitFor(2000);
+};
+
+//skip
+await page.waitFor(4000);
+await page.click('a._65Bje');
+
+};
+
+
+page.close()
+})();
+
+
+
