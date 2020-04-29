@@ -17,7 +17,7 @@ const puppeteer = require('puppeteer');
 
  //go to a # 
  await page.waitFor(2000);
- await page.goto('https://www.instagram.com/explore/tags/lindas/');
+ await page.goto('https://www.instagram.com/explore/tags/fofa/');
  
  //photo selection
  await page.click('div.eLAPa')
@@ -38,7 +38,7 @@ await page.click('button.wpO6b');
 if(rand > 74){
 
 //comment
-  await page.type('textarea.Ypffh', 'Lindaaaaaaa❤️❤️');
+  await page.type('textarea.Ypffh', 'Lindaaa❤️❤️');
   await page.click('button[type="submit"]');
   await page.waitFor(2000);
 };
