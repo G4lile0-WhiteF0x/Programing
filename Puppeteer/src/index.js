@@ -11,7 +11,7 @@ const puppeteer = require('puppeteer');
   await page.waitForSelector('input[name="username"]');
   
   //login
-  await page.type('input[name="username"]', 'Bot_g4lile0');
+  await page.type('input[name="username"]', 'bot_g4lile0');
   await page.type('input[name="password"]', 'Insta123');
   await page.click('button[type="submit"]');
 
@@ -26,7 +26,7 @@ const puppeteer = require('puppeteer');
 //pohto like
 
 
-for(i=0;i<60;i++){
+for(i=0;i<100;i++){
   var rand = Math.floor(Math.random() * 100) + 1;
 if(rand > 38){
 
@@ -35,7 +35,7 @@ await page.waitFor(2000);
 await page.click('button.wpO6b');
 };
 
-if(rand > 74){
+if(rand > 54){
 
 //comment
   await page.type('textarea.Ypffh', 'Lindaaaaaaa❤️❤️');
@@ -48,41 +48,6 @@ await page.waitFor(4000);
 await page.click('a._65Bje');
 
 };
-
-
-//go to a 2 #
-
-
-await page.waitFor(2000);
-await page.goto('https://www.instagram.com/explore/tags/fofa/');
-
-//photo selection
-await page.click('div.eLAPa')
-
-// like, coment fotos
-for(i=0;i<60;i++){
-  var rand = Math.floor(Math.random() * 100) + 1;
-if(rand > 38){
-
-  //like
-await page.waitFor(2000);
-await page.click('button.wpO6b');
-};
-
-if(rand > 74){
-
-//comment
-  await page.type('textarea.Ypffh', 'Lindaaaaaaa❤️❤️');
-  await page.click('button[type="submit"]');
-  await page.waitFor(2000);
-};
-
-//skip
-await page.waitFor(4000);
-await page.click('a._65Bje');
-
-};
-
 
 page.close()
 })();
