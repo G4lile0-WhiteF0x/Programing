@@ -43,6 +43,12 @@ if(rand > 74){
   await page.waitFor(2000);
 };
 
+//follow 
+await page.click('button.oW_lN');
+await page.waitFor(1000);
+
+
+
 //skip
 await page.waitFor(4000);
 await page.click('a._65Bje');
