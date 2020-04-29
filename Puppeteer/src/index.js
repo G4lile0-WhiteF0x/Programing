@@ -44,8 +44,9 @@ if(rand > 74){
 };
 
 //follow 
-await page.click('button.oW_lN');
 await page.waitFor(1000);
+await page.click('button.oW_lN');
+
 
 
 
