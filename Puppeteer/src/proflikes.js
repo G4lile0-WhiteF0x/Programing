@@ -1,8 +1,8 @@
 const puppeteer = require('puppeteer');
 
-const user = "user you want";
+const user = "@@@";
 const url = 'https://www.instagram.com/' + user + '/';
-const comment = "Your coment";
+const comment = ["Your coment","1","2","3",'4','5','6','7','8','9'];
 
 (async() =>{
         //variable set
@@ -66,16 +66,18 @@ const comment = "Your coment";
             };
   
   
-           if(rand > 74){
+           if(rand > 1){
             
   
              //comment
   
-                await page.type('textarea.Ypffh', comment);
+                
+                await page.waitFor(2000);
+             
+                await page.type('textarea.Ypffh', comment[Math.floor(Math.random() * 10)] );
             
                 await page.click('button[type="submit"]');
             
-                await page.waitFor(2000);
   
             };
   
