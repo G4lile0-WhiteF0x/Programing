@@ -1,7 +1,7 @@
 So heare i gona explain how to use this BOT
 
 
-
+## How to use ##
 
 
 
@@ -12,10 +12,16 @@ So heare i gona explain how to use this BOT
 4) Use the comand "node .\#likes.js" or "node .\proflikes.js" 
 5) Let the BOT run :)
 
+
+
+## How to use ##
+
+
+
 ## Warn ##
 
 Use it with moderation, Abusing on bots could cause Temp Ban 
 
-## warn ##
+## Warn ##
 
 [WF]G4lile0
