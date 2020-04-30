@@ -2,7 +2,7 @@ const puppeteer = require('puppeteer');
 
 const rash = "user you want";
 const url = 'https://www.instagram.com/explore/tags/' + rash + '/';
-const comment = "Your coment"
+const comment = "Your coment";
 
 (async () => {
    //variable set

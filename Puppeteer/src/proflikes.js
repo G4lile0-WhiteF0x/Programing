@@ -2,7 +2,7 @@ const puppeteer = require('puppeteer');
 
 const user = "user you want";
 const url = 'https://www.instagram.com/' + user + '/';
-const comment = "Your coment"
+const comment = "Your coment";
 
 (async() =>{
         //variable set
