@@ -1,11 +1,24 @@
 const puppeteer = require('puppeteer');
 
+//navegation
+
 const rash = "###";
+
 const url = 'https://www.instagram.com/explore/tags/' + rash + '/';
+
 const comment = ["Your coment","1","2","3","4",'5','6','7','8','9'];
 
+// your information 
+
+
+const user = "your user name"
+
+const password = "your password"
+
 (async () => {
-   //variable set
+
+
+  //variable set
 
 
      const browser = await puppeteer.launch({headless: false});
@@ -22,9 +35,9 @@ const comment = ["Your coment","1","2","3","4",'5','6','7','8','9'];
    //login
 
     
-     await page.type('input[name="username"]', 'login');
+     await page.type('input[name="username"]', user);
     
-     await page.type('input[name="password"]', 'password');
+     await page.type('input[name="password"]', password);
      
      await page.click('button[type="submit"]');
 

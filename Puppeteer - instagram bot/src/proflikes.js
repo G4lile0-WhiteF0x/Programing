@@ -1,11 +1,26 @@
 const puppeteer = require('puppeteer');
 
+
+// to navegate
+
 const user = "@@@";
+
 const url = 'https://www.instagram.com/' + user + '/';
+
 const comment = ["Your coment","1","2","3",'4','5','6','7','8','9'];
 
+// your information 
+
+
+const user = "your user name"
+
+const password = "your password"
+
+
 (async() =>{
-        //variable set
+        
+  
+  //variable set
 
 
         const browser = await puppeteer.launch({headless: false});
