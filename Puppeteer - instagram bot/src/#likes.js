@@ -11,9 +11,9 @@ const comment = ["Your coment","1","2","3","4",'5','6','7','8','9'];
 // your information 
 
 
-const user = "your user name"
+const user = "your user name";
 
-const password = "your password"
+const password = "your password";
 
 (async () => {
 
