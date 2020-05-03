@@ -60,7 +60,7 @@ const password = "your password";
   
    //photo selection
  
-     await page.click('div.eLAPa')
+     await page.click('div.u7YqG')
 
 
    //pohto
