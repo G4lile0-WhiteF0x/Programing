@@ -8,6 +8,22 @@ const url = 'https://www.instagram.com/explore/tags/' + rash + '/';
 
 const comment = ["Your coment","1","2","3","4",'5','6','7','8','9'];
 
+
+
+//bot name
+
+const firstname = ['ehyte', 'ragdno', 'nudro' ,'bhe', 'nytra', 'torme' ,'hany','trahy','tonhy','tranhy'];
+
+const secondname = ['fhog','fetus','drago', 'nabc', 'mhoje', 'mage','fadecx', 'sytr','baltazar','gaspar'];
+
+console.log("Have iniciated the Bot");
+
+const math = Math.floor(Math.random() * 10);
+
+const botname = firstname[math] + ' '+ secondname[math];
+
+console.log(botname);
+
 // your information 
 
 
@@ -24,7 +40,8 @@ const password = "your password";
      const browser = await puppeteer.launch({headless: false});
     
      const page = await browser.newPage();
-  
+   
+     console.log(botname + " has iniciated")
    //page get
 
      
@@ -40,6 +57,8 @@ const password = "your password";
      await page.type('input[name="password"]', password);
      
      await page.click('button[type="submit"]');
+
+     console.log(botname + " has loged in ")
 
    //go to a # 
 
@@ -68,6 +87,7 @@ const password = "your password";
          
          await page.click('button.wpO6b');
         
+         console.log(botname + " has liked")
         };
 
         if(rand > 74){
@@ -76,10 +96,11 @@ const password = "your password";
          
          await page.waitFor(2000);
 
-         await page.type('textarea.Ypffh', comment[Math.floor(Math.random() * 10)]);
+         await page.type('textarea.Ypffh', comment[math]);
          
          await page.click('button[type="submit"]');
          
+         console.log(botname + " has commented " + comment[math] )
         };
 
        //follow 
@@ -88,14 +109,16 @@ const password = "your password";
          
          await page.click('button.oW_lN');
 
-
+         console.log(botname + " has followed")
        //skip
          
          await page.waitFor(4000);
          
          await page.click('a._65Bje');
 
+         console.log(botname + " has skipped")
       };
+      console.log(botname + " has finished")
 
     page.close()
   }

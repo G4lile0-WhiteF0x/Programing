@@ -9,6 +9,21 @@ const url = 'https://www.instagram.com/' + user + '/';
 
 const comment = ["Your coment","1","2","3",'4','5','6','7','8','9'];
 
+
+//bot name
+
+const firstname = ['ehyte', 'ragdno', 'nudro' ,'bhe', 'nytra', 'torme' ,'hany','trahy','tonhy','tranhy'];
+
+const secondname = ['fhog','fetus','drago', 'nabc', 'mhoje', 'mage','fadecx', 'sytr','baltazar','gaspar'];
+
+console.log("Have iniciated the Bot");
+
+const math = Math.floor(Math.random() * 10);
+
+const botname = firstname[math] + ' '+ secondname[math];
+
+console.log(botname);
+
 // your information 
 
 
@@ -27,7 +42,7 @@ const password = "your password";
 
         const page = await browser.newPage();
 
-        console.log("Have iniciated the Bot")
+        console.log(botname + " has iniciated")
 
 
   
@@ -48,7 +63,7 @@ const password = "your password";
       await page.click('button[type="submit"]');
 
 
-
+      console.log(botname + " has loged in")
 
      //go to a profile
 
@@ -76,6 +91,8 @@ const password = "your password";
              await page.waitFor(2000);
             
              await page.click('span.fr66n button');
+
+             console.log(botname + " has liked")
   
             };
   
@@ -88,11 +105,11 @@ const password = "your password";
                 
                 await page.waitFor(2000);
              
-                await page.type('textarea.Ypffh', comment[Math.floor(Math.random() * 10)] );
+                await page.type('textarea.Ypffh', comment[math] );
             
                 await page.click('button[type="submit"]');
             
-  
+                console.log(botname + " has commented " + comment[math] )
             };
   
   
@@ -102,11 +119,11 @@ const password = "your password";
   
             await page.click('a._65Bje');
   
-  
+            console.log(botname + " has skipped")
 
 
         }; 
-
+        console.log(botname + " has finished")
         page.close()
     }   
 )

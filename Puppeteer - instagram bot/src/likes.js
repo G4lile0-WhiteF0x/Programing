@@ -9,8 +9,6 @@ const firstname = ['ehyte', 'ragdno', 'nudro' ,'bhe', 'nytra', 'torme' ,'hany','
 
 const secondname = ['fhog','fetus','drago', 'nabc', 'mhoje', 'mage','fadecx', 'sytr','baltazar','gaspar'];
 
-console.log("Have iniciated the Bot");
-
 const math = Math.floor(Math.random() * 10);
 
 const botname = firstname[math] + ' '+ secondname[math];
@@ -30,7 +28,7 @@ const password = "your password";
     
      const page = await browser.newPage();
 
-     console.log("Have iniciated the Bot")
+     console.log(botname + " has iniciated")
   
    //page get
 
@@ -48,7 +46,7 @@ const password = "your password";
      
      await page.click('button[type="submit"]');
 
-     console.log("Have loged in")
+     console.log(botname + " Has loged in")
   
   
      //go to a # 
@@ -88,6 +86,7 @@ const password = "your password";
          
          await page.click('a._65Bje');
 
+         console.log(botname + " has commented")
       };
 
     page.close()
