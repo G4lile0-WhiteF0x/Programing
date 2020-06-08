@@ -4,8 +4,10 @@ const fs = require('fs')
 const app = express();
 
 
-const port = 3000;
+var port = process.eventNames.PORT || 8080;
 
+
+app.use(express.static(__dirname));
 
 app.get('/', (req, res) => 
 
