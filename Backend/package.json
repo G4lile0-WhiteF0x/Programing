@@ -9,6 +9,8 @@
   "author": "G4lile0",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
     "http": "0.0.1-security"
   }
 }
