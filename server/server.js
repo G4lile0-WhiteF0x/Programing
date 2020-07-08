@@ -4,7 +4,7 @@ const fs = require('fs')
 const app = express();
 
 
-var port = 80;
+var port = 8080;
 
 
 app.use(express.static(__dirname));
